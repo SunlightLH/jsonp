@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsonp实战</title>
+</head>
+<body>
+  <script>
+    function abc(param){
+      console.log("abc函数调用，参数是",param);
+    }
+  </script>
+  <script src="http://localhost:3000?callback=abc"></script>
+</body>
+</html>
